@@ -1,0 +1,25 @@
+This project is currently in progress as of July 2012.   I need to find access to a MAC Osx with XCode,  so I've had to put this on hold for a little bit until then. 
+
+
+To run this code, I belive you can import the project into Xcode, via dragging and dropping. 
+
+This is written in Objective C. 
+
+Currently, this build can :
+
+-Display all views correctly
+-Smoothly go back and forth between views
+-smoothly go through the flash cards that were already added (from JapanTimes Genki textbook) 
+
+(in the application, the about me screen has more details)
+
+Things to implement in future builds:
+-allow user to add cards of their own.
+-better title screen
+-information keeping track of what cards the user has missed/flipped the most often, etc. 
+
+-possibly consider adding audio clips with a correct pronunciation of the word to each card (if this is to go on the market). 
+
+
+
+---Jon Blount

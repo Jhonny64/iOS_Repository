@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0833A3821592880800AF6559 /* Defaultx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0833A3811592880800AF6559 /* Defaultx2.png */; };
+		0833A38A159353D300AF6559 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0833A389159353D200AF6559 /* Default@2x.png */; };
+		0833A38C159353E900AF6559 /* InvertedFlashCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 0833A38B159353E800AF6559 /* InvertedFlashCard.png */; };
+		0833A3901593555100AF6559 /* newbkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0833A38F1593555100AF6559 /* newbkg.png */; };
+		085733BF158F719100689784 /* JDBChapterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 085733BE158F719100689784 /* JDBChapterView.m */; };
+		085733CB158F863100689784 /* JDBFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085733CA158F863100689784 /* JDBFrontViewController.m */; };
+		085733CE158F867D00689784 /* JDBBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085733CD158F867D00689784 /* JDBBackViewController.m */; };
+		085733D915921BBE00689784 /* JDBEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085733D815921BBE00689784 /* JDBEditViewController.m */; };
+		08606F19158B944100EAB3D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08606F18158B944100EAB3D0 /* UIKit.framework */; };
+		08606F1B158B944100EAB3D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08606F1A158B944100EAB3D0 /* Foundation.framework */; };
+		08606F1D158B944100EAB3D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08606F1C158B944100EAB3D0 /* CoreGraphics.framework */; };
+		08606F23158B944100EAB3D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08606F21158B944100EAB3D0 /* InfoPlist.strings */; };
+		08606F25158B944100EAB3D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08606F24158B944100EAB3D0 /* main.m */; };
+		08606F29158B944100EAB3D0 /* JDBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08606F28158B944100EAB3D0 /* JDBAppDelegate.m */; };
+		08606F2C158B944100EAB3D0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08606F2A158B944100EAB3D0 /* MainStoryboard.storyboard */; };
+		08606F2F158B944100EAB3D0 /* JDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08606F2E158B944100EAB3D0 /* JDBViewController.m */; };
+		08606F36158B955400EAB3D0 /* Books.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08606F35158B955400EAB3D0 /* Books.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0833A3811592880800AF6559 /* Defaultx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defaultx2.png; sourceTree = "<group>"; };
+		0833A3851592881B00AF6559 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0833A389159353D200AF6559 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0833A38B159353E800AF6559 /* InvertedFlashCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InvertedFlashCard.png; path = "/Volumes/NO NAME/InvertedFlashCard.png"; sourceTree = "<absolute>"; };
+		0833A38F1593555100AF6559 /* newbkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbkg.png; sourceTree = "<group>"; };
+		085733BD158F719100689784 /* JDBChapterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDBChapterView.h; path = ../JDBChapterView.h; sourceTree = "<group>"; };
+		085733BE158F719100689784 /* JDBChapterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDBChapterView.m; path = ../JDBChapterView.m; sourceTree = "<group>"; };
+		085733C9158F863100689784 /* JDBFrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDBFrontViewController.h; path = ../JDBFrontViewController.h; sourceTree = "<group>"; };
+		085733CA158F863100689784 /* JDBFrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDBFrontViewController.m; path = ../JDBFrontViewController.m; sourceTree = "<group>"; };
+		085733CC158F867D00689784 /* JDBBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDBBackViewController.h; path = ../JDBBackViewController.h; sourceTree = "<group>"; };
+		085733CD158F867D00689784 /* JDBBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDBBackViewController.m; path = ../JDBBackViewController.m; sourceTree = "<group>"; };
+		085733D715921BBE00689784 /* JDBEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDBEditViewController.h; path = ../JDBEditViewController.h; sourceTree = "<group>"; };
+		085733D815921BBE00689784 /* JDBEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDBEditViewController.m; path = ../JDBEditViewController.m; sourceTree = "<group>"; };
+		08606F14158B944100EAB3D0 /* FlashCardProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCardProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08606F18158B944100EAB3D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08606F1A158B944100EAB3D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08606F1C158B944100EAB3D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08606F20158B944100EAB3D0 /* FlashCardProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashCardProject-Info.plist"; sourceTree = "<group>"; };
+		08606F22158B944100EAB3D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08606F24158B944100EAB3D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08606F26158B944100EAB3D0 /* FlashCardProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashCardProject-Prefix.pch"; sourceTree = "<group>"; };
+		08606F27158B944100EAB3D0 /* JDBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDBAppDelegate.h; sourceTree = "<group>"; };
+		08606F28158B944100EAB3D0 /* JDBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDBAppDelegate.m; sourceTree = "<group>"; };
+		08606F2B158B944100EAB3D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		08606F2D158B944100EAB3D0 /* JDBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDBViewController.h; sourceTree = "<group>"; };
+		08606F2E158B944100EAB3D0 /* JDBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDBViewController.m; sourceTree = "<group>"; };
+		08606F35158B955400EAB3D0 /* Books.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Books.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08606F11158B944100EAB3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08606F19158B944100EAB3D0 /* UIKit.framework in Frameworks */,
+				08606F1B158B944100EAB3D0 /* Foundation.framework in Frameworks */,
+				08606F1D158B944100EAB3D0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08606F09158B944100EAB3D0 = {
+			isa = PBXGroup;
+			children = (
+				0833A389159353D200AF6559 /* Default@2x.png */,
+				0833A3851592881B00AF6559 /* Default.png */,
+				08606F1E158B944100EAB3D0 /* FlashCardProject */,
+				08606F17158B944100EAB3D0 /* Frameworks */,
+				08606F15158B944100EAB3D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08606F15158B944100EAB3D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08606F14158B944100EAB3D0 /* FlashCardProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08606F17158B944100EAB3D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08606F18158B944100EAB3D0 /* UIKit.framework */,
+				08606F1A158B944100EAB3D0 /* Foundation.framework */,
+				08606F1C158B944100EAB3D0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08606F1E158B944100EAB3D0 /* FlashCardProject */ = {
+			isa = PBXGroup;
+			children = (
+				0833A3811592880800AF6559 /* Defaultx2.png */,
+				08606F27158B944100EAB3D0 /* JDBAppDelegate.h */,
+				085733D715921BBE00689784 /* JDBEditViewController.h */,
+				085733D815921BBE00689784 /* JDBEditViewController.m */,
+				085733CC158F867D00689784 /* JDBBackViewController.h */,
+				085733CD158F867D00689784 /* JDBBackViewController.m */,
+				085733C9158F863100689784 /* JDBFrontViewController.h */,
+				085733CA158F863100689784 /* JDBFrontViewController.m */,
+				085733BD158F719100689784 /* JDBChapterView.h */,
+				085733BE158F719100689784 /* JDBChapterView.m */,
+				08606F28158B944100EAB3D0 /* JDBAppDelegate.m */,
+				08606F2A158B944100EAB3D0 /* MainStoryboard.storyboard */,
+				08606F2D158B944100EAB3D0 /* JDBViewController.h */,
+				08606F35158B955400EAB3D0 /* Books.plist */,
+				08606F2E158B944100EAB3D0 /* JDBViewController.m */,
+				08606F1F158B944100EAB3D0 /* Supporting Files */,
+			);
+			path = FlashCardProject;
+			sourceTree = "<group>";
+		};
+		08606F1F158B944100EAB3D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0833A38B159353E800AF6559 /* InvertedFlashCard.png */,
+				0833A38F1593555100AF6559 /* newbkg.png */,
+				08606F20158B944100EAB3D0 /* FlashCardProject-Info.plist */,
+				08606F21158B944100EAB3D0 /* InfoPlist.strings */,
+				08606F24158B944100EAB3D0 /* main.m */,
+				08606F26158B944100EAB3D0 /* FlashCardProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08606F13158B944100EAB3D0 /* FlashCardProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08606F32158B944100EAB3D0 /* Build configuration list for PBXNativeTarget "FlashCardProject" */;
+			buildPhases = (
+				08606F10158B944100EAB3D0 /* Sources */,
+				08606F11158B944100EAB3D0 /* Frameworks */,
+				08606F12158B944100EAB3D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashCardProject;
+			productName = FlashCardProject;
+			productReference = 08606F14158B944100EAB3D0 /* FlashCardProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08606F0B158B944100EAB3D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JDB;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 08606F0E158B944100EAB3D0 /* Build configuration list for PBXProject "FlashCardProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08606F09158B944100EAB3D0;
+			productRefGroup = 08606F15158B944100EAB3D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08606F13158B944100EAB3D0 /* FlashCardProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08606F12158B944100EAB3D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08606F23158B944100EAB3D0 /* InfoPlist.strings in Resources */,
+				08606F2C158B944100EAB3D0 /* MainStoryboard.storyboard in Resources */,
+				08606F36158B955400EAB3D0 /* Books.plist in Resources */,
+				0833A3821592880800AF6559 /* Defaultx2.png in Resources */,
+				0833A38A159353D300AF6559 /* Default@2x.png in Resources */,
+				0833A38C159353E900AF6559 /* InvertedFlashCard.png in Resources */,
+				0833A3901593555100AF6559 /* newbkg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08606F10158B944100EAB3D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08606F25158B944100EAB3D0 /* main.m in Sources */,
+				08606F29158B944100EAB3D0 /* JDBAppDelegate.m in Sources */,
+				08606F2F158B944100EAB3D0 /* JDBViewController.m in Sources */,
+				085733BF158F719100689784 /* JDBChapterView.m in Sources */,
+				085733CB158F863100689784 /* JDBFrontViewController.m in Sources */,
+				085733CE158F867D00689784 /* JDBBackViewController.m in Sources */,
+				085733D915921BBE00689784 /* JDBEditViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08606F21158B944100EAB3D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08606F22158B944100EAB3D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08606F2A158B944100EAB3D0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08606F2B158B944100EAB3D0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08606F30158B944100EAB3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08606F31158B944100EAB3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08606F33158B944100EAB3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashCardProject/FlashCardProject-Prefix.pch";
+				INFOPLIST_FILE = "FlashCardProject/FlashCardProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08606F34158B944100EAB3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashCardProject/FlashCardProject-Prefix.pch";
+				INFOPLIST_FILE = "FlashCardProject/FlashCardProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08606F0E158B944100EAB3D0 /* Build configuration list for PBXProject "FlashCardProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08606F30158B944100EAB3D0 /* Debug */,
+				08606F31158B944100EAB3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08606F32158B944100EAB3D0 /* Build configuration list for PBXNativeTarget "FlashCardProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08606F33158B944100EAB3D0 /* Debug */,
+				08606F34158B944100EAB3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08606F0B158B944100EAB3D0 /* Project object */;
+}

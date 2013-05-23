@@ -1,7 +1,7 @@
 iOS_Repository
 ==============
 
-This is an iOS project started in 2012. It's dvelopment has been put on hold for a while...
+This is an iOS project started in 2012. Its dvelopment has been put on hold for a while...
 
 Test repo for learning gitHub /uploading iOS project
 

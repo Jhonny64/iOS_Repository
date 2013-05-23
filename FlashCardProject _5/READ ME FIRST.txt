@@ -1,9 +1,4 @@
-This project is currently in progress as of July 2012.   I need to find access to a MAC Osx with XCode,  so I've had to put this on hold for a little bit until then. 
-
-
-To run this code, I belive you can import the project into Xcode, via dragging and dropping. 
-
-This is written in Objective C. 
+This project is currently on hold as of July 2012.
 
 Currently, this build can :
 
@@ -15,7 +10,7 @@ Currently, this build can :
 
 Things to implement in future builds:
 -allow user to add cards of their own.
--better title screen
+-better title/ splash screen
 -information keeping track of what cards the user has missed/flipped the most often, etc. 
 
 -possibly consider adding audio clips with a correct pronunciation of the word to each card (if this is to go on the market). 
